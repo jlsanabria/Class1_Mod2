@@ -43,5 +43,22 @@ public class DatosFormulario {
          *
          * Layout en Java Swing
          */
+
+        //========================================================================
+        String plantilla = "============   MENÚ ============= " +
+                "\n1. Películas Favoritas" +
+                "\n2. Juegos Favoritos" +
+                "\n3. Jugadores Favoritos" +
+                "\n4. Música Favorita";
+
+        System.out.println(plantilla);
+
+        String texto = new String("Java Full Stack");
+        String mensaje = "Java Full Stack";
+        System.out.println(texto);
+        System.out.println(mensaje);
+
+
+
     }
 }
